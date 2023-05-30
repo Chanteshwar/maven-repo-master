@@ -29,17 +29,17 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://52.53.213.142:8081/repository/chanti-R/</url>
+            <url>http://54.219.40.67:8081/repository/chanti-Release/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://52.53.213.142:8081/repository/chanti-S/</url>
+            <url>http://54.219.40.67:8081/repository/chanti-Snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
   <properties>
   <!-- Other properties -->
-  <sonar.host.url>http://54.215.221.185/</sonar.host.url>
+  <sonar.host.url>http://13.52.101.64:9000/</sonar.host.url>
     <sonar.login>admin</sonar.login>
     <sonar.password>chanti</sonar.password>
      <sonar.java.binaries>src/</sonar.java.binaries>
